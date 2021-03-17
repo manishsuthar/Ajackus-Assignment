@@ -1,0 +1,33 @@
+.outer-block{
+    /* ÷display: flex; */
+    text-align: center;
+}
+.inner-block{
+   display: table;
+   margin: auto;
+}
+.inner-block img{
+    width: 100%;
+}
+.subtitle{
+    color: #717070;
+    font-size: 18px;
+}
+.horizontal-line{
+   width: 77%;
+    color: #b6b6b6;
+    border: 1px solid;
+}
+
+.brand{
+  color: #2f577f;
+  font-size: 35px;
+}
+.brand span{
+    color: #ef4f48;
+    font-size: 22px;
+}
+
+.title{
+    color: #ef4f48;
+}

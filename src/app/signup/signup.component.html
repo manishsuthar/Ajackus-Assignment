@@ -1,0 +1,36 @@
+<div>
+  <div class="outer-block">
+    <div class="inner-block">
+      <span><img src="/assets/search.svg" /></span>
+    </div>
+    <div class="subtitle">
+      Please confirm or edit your contact information, so that we can notify you
+      when you are approved for our BETA
+    </div>
+    <hr class="horizontal-line" />
+    <form [formGroup]="form" class="form-group">
+      <div class="form-field">
+        <label>NAME</label>
+        <div class="input-field">
+          <input class="input-box" formControlName="name" type="text" />
+        </div>
+      </div>
+      <div class="form-field">
+        <label>EMAIL ADDRESS</label>
+        <div class="input-field">
+          <input class="input-box" formControlName="email" type="text" />
+        </div>
+      </div>
+      <div class="form-field">
+        <label>PHONE NUMBER</label>
+        <div class="input-field">
+          <input class="input-box" formControlName="phone" type="text" />
+        </div>
+      </div>
+    </form>
+    <hr class="horizontal-line" />
+    <div class="d-inline-flex">
+      <span class="sign-linkdin"><a routerLink="/success">Sign Up</a></span>
+    </div>
+  </div>
+</div>
